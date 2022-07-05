@@ -33,6 +33,10 @@
 
 
 # a_list = [1, 2, 3, 4,5,6,7,8,9,10,11,12]
+import math
+
+num = 66.532 print(math.modf(num))   
+d, i + math.modf(num) print (i)
 # even = []
 # odd = []
 # for item in a_list:
