@@ -33,10 +33,10 @@
 
 
 # a_list = [1, 2, 3, 4,5,6,7,8,9,10,11,12]
-import math
+# import math
 
-num = 66.532 print(math.modf(num))   
-d, i + math.modf(num) print (i)
+# num = 66.532 print(math.modf(num))   
+# d, i + math.modf(num) print (i)
 # even = []
 # odd = []
 # for item in a_list:
@@ -139,7 +139,7 @@ d, i + math.modf(num) print (i)
 #     print(fizzbuzz)
 
 
-import math
+# import math
 #
 # num = 66.532
 # print(math.modf(num))
@@ -174,11 +174,11 @@ import math
 
 # interchange the first and last elements in list
 
-def swapList(newlist)
+def swapList(newList):
    size = len(newlist)
- temp =newList[0]
- newList[0]=newList[size-1]
-newlist[size-1] = temp
-return newlist
-newlist=[12,34,56,78,97,14]
-print(swapList(newlist)
+   temp =newList[0]
+   newList[0]=newList[size-1]
+   newList[size-1] = temp
+   return newlist
+newList=[12,34,56,78,97,14]
+print(swapList(newList))   
