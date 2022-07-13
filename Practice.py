@@ -165,10 +165,20 @@ import math
 # append(method) is not effect the list or value it only insert into the origial list
 
 
-def value_reverse(value):
-    reverse=value[::-1]
-    return reverse
-l="python"
-result=value_reverse(l)
-print(result)
+# def value_reverse(value):
+#     reverse=value[::-1]
+#     return reverse
+# l="python"
+# result=value_reverse(l)
+# print(result)
 
+# interchange the first and last elements in list
+
+def swapList(newlist)
+   size = len(newlist)
+ temp =newList[0]
+ newList[0]=newList[size-1]
+newlist[size-1] = temp
+return newlist
+newlist=[12,34,56,78,97,14]
+print(swapList(newlist)
