@@ -174,11 +174,11 @@
 
 # interchange the first and last elements in list
 
-def swapList(newList):
-   size = len(newlist)
-   temp =newList[0]
-   newList[0]=newList[size-1]
-   newList[size-1] = temp
-   return newlist
-newList=[12,34,56,78,97,14]
-print(swapList(newList))   
+# def swapList(newList):
+#    size = len(newlist)
+#    temp =newList[0]
+#    newList[0]=newList[size-1]
+#    newList[size-1] = temp
+#    return newlist
+# newList=[12,34,56,78,97,14]
+# print(swapList(newList))   
